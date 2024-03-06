@@ -34,7 +34,7 @@
 			<b>Build</b>: <?php echo @htmlspecialchars(@$object["hive_mode"]["build"] ?? ''); ?><br />
 			<b>Rname</b>: <?php echo @htmlspecialchars(@$object["hive_mode"]["rname"] ?? ''); ?><br />
 			<b>Name</b>: <?php echo @htmlspecialchars(@$object["hive_mode"]["name"] ?? ''); ?><br />
-			<b>Short Description</b>: <?php echo @htmlspecialchars(@$object["hive_mode"]["short"] ?? ''); ?><br />
+			<b>Short Description</b>: <?php echo @$object["hive_mode"]["short"]; ?><br />
 			<b>License</b>: <?php echo @htmlspecialchars(@$object["hive_mode"]["license"] ?? ''); ?><br />
 	</div>	
 		

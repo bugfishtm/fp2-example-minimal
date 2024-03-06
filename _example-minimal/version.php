@@ -25,18 +25,19 @@
 	*/	
 	$x = array();
 	$x["rname"] 		= "_example-minimal";
-	$x["build"] 		= "212";
-	$x["version"] 		= "2.".$x["build"];
-	$x["iframe"] 		= false;
+	$x["name"] 			= "Minimal Template";
+	
+	$x["short"] 		= "This module contains the official documentation for you to get insights about integrated functions, classes templates and more! You can also find on <a href=\"https://bugfishtm.github.io\" rel='noopener' target=\"_blank\">https://bugfishtm.github.io</a>!";
+	$x["build"] 		= "100";
+	$x["version"] 		= "1.".$x["build"];
+	$x["iframe"] 		= true;
 	$x["view"] 			= true;
 	$x["singleuse"] 	= false;
-	$x["cat"] 			= "dev";
-	$x["lang"] 			= array("en");
-	$x["license"] 		= "MIT";
+	$x["cat"] 			= "documentation";
+	$x["license"] 		= "GPLv3";
 	$x["autor"] 		= "Jan-Maurice Dahlmanns";
 	$x["pseudo"] 		= "Bugfish";
 	$x["mail"] 			= "requests@bugfish.eu";
 	$x["website"] 		= "www.bugfish.eu";
-	$x["name"] 			= "Template: Minimal Theme";
-	$x["short"] 		= "Meet our Minimal Theme – a minimalist, user-friendly template for our CMS. It provides a clean and easily customizable layout, making website creation a breeze. Enjoy simplicity and versatility effortlessly!";
-	$x["description"] 	= "Introducing our Minimal theme – a minimalist yet effective template designed for ease of use on our CMS. This theme embodies simplicity at its core, offering a clean and straightforward layout that serves as a perfect starting point for your website. With a focus on clarity and functionality, it provides a basic structure that can be easily customized and expanded upon according to your needs. Enjoy the simplicity and versatility of this theme as you embark on creating your website effortlessly! You can also find documentations at https://bugfishtm.github.io!";
+	$x["lang"] 			= array("en");
+	$x["description"] 	= $x["short"];
