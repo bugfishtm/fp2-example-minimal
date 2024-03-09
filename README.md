@@ -36,6 +36,7 @@ To integrate this Fast PHP Page Module into your website, you have two installat
 - `_releases`: Module installation files for administrative interfaces or manual installation.
 - 'modulename': Module-specific folder for administrative installations, with installable releases available in the `_releases` folder.
 - `_images`: Images for the readme file and documentation.
+- `docs`: Small Documentation for Github Pages.
 - `CONTRIBUTING.md`: Guidelines on contributing to this project.
 - `LICENSE.md`: Licensing information for this module's code. Please refer to the Fast PHP Page documentation for information on any third-party licenses used.
 - `README.md`: The document you are currently viewing.
